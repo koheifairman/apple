@@ -1,0 +1,118 @@
+.promotion {
+    width: 100%;
+}
+
+.promotion-text-wrapper {
+    height: 72px;
+    background-color: #ffffff;
+    padding: 13px 0;
+    text-align: center;
+}
+
+.promotion-text {
+    width: 980px;
+    height: 40px;
+    font-size: 14px;
+    color: #1d1d1f;
+    display: inline-block;
+    margin-right: 0;
+}
+
+.catchphrase-chatstore-container {
+    width: 980px;
+    height: 254px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    height: 254px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+}
+
+.catchphrase {
+    width: 640px;
+    height: 254px;
+    color: #1d1d1f;
+    padding: 80px 0 64px;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 127px;
+    height: 56px;
+    display: inline;
+    margin: 0;
+    color: #1d1d1f;
+    font-size: 41px;
+    font-weight: 600;
+    /* font-family: "SF Pro JP";
+    line-height: 1.14599; */
+    /* font-variant-ligatures: none; */
+    line-height: 1.14599;
+    letter-spacing: 0px;
+}
+
+.subheading {
+    width: 609px;
+    height: 111px;
+    color: #6e6e73;
+    display: inline;
+    font-size: 41px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.chatstore-container {
+    width: 243px;
+    height: 254px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 90px 0 74px;
+    box-sizing: border-box;
+    margin-left: 97px;
+}
+
+.chatstore-container p {
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.chatstore-container a {
+    font-size: 11px;
+}
+
+.chatstore-container .image {
+    width: 40px;
+    height: 35px;
+    padding-right: 8px;
+}
+
+.chat-section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    -webkit-text-size-adjust: none;
+    width: 243px;
+    height: 56px;
+}
+
+.chat-text-container {
+    width: 200px;
+    height: 40px;
+}
+
+.store-section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    -webkit-text-size-adjust: none;
+    width: 243px;
+    height: 50px;
+}

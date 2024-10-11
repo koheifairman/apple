@@ -1,0 +1,50 @@
+.product .scroller {
+    width: 100%;
+    height: 236px;
+    padding-bottom: 62px;
+    overflow-x: scroll;
+    scroll-snap-type: x;
+  }
+  
+  .product .inner-scroller {
+    display: flex;
+    vertical-align: top;
+    height: 198px;
+    padding: 10px 0 40px;
+  }
+  
+  .product .scrolleritem-container {
+    width: 146px;
+    height: 148px;
+  }
+  
+  .product .scrolleritem-inner-container {
+    width: 136px;
+    height: 148px;
+    overflow: hidden;
+  }
+  
+  .product .scrolleritem {
+    width: 136px;
+    height: 148px;
+    padding: 18px 8px 16px;
+    cursor: pointer;
+  }
+  
+  .product .scrolleritem-img-container {
+    padding-bottom: 16px;
+  }
+  
+  .product .scrolleritem-img {
+    width: 120px;
+    height: 78px; 
+  }
+  
+  .product .scrolleritem-title {
+    width: 120px;
+    height: 20px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }

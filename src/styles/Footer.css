@@ -1,0 +1,155 @@
+.footer {
+  width: 1024px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+.footer-wrapper {
+  width: 1024px;
+  height: 550px;
+  padding: 0 22px;
+  color: #6e6e73;
+  font-size: 12px;
+}
+
+.footer-heading {
+  width: 980px;
+  height: 58px;
+  color: #424245;
+  padding: 17px 0;
+  border-top: solid #c4c2c2;
+}
+
+.footer-heading-generic {
+  width: 980px;
+  height: 24px;
+  display: flex;
+}
+
+.footer-heading-generic .apple {
+  color: #7a7979;
+  font-size: 1rem;
+}
+
+.footer-heading-generic .rightchevron {
+  color: #c4c2c2;
+  font-size: 1rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footer-heading-text {
+  font-size: 1rem;
+  color: #6e6e73;
+}
+
+.footer-container-generic {
+  width: 980px;
+  height: 377px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-container {
+  width: 196px;
+  height: 377px;
+  color: #6e6e73;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.container23 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container567 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column {
+  margin: 0;
+  padding: 0;
+}
+
+.column3 {
+  padding-top: 24px;
+}
+
+.column6 {
+  padding-top: 24px;
+}
+
+.column7 {
+  padding-top: 24px;
+}
+
+.column9 {
+  padding-top: 24px;
+}
+
+.footer-column-title {
+  margin: 0 20px 10px 0;
+  font-weight: 600;
+  font-size: 12px;
+  color: #1d1d1f;
+}
+
+.footer-column-content {
+  margin-bottom: 10px;
+}
+/* 最後の一つだけマージン0にしたい */
+
+.footer-end {
+  width: 980px;
+  height: 115px;
+  padding: 34px 0 21px;
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.footer-end p {
+  margin: 0 0 7px 0;
+  padding-bottom: 8px;
+  border-bottom: solid #c4c2c2;
+}
+
+.copyrightlist {
+  width: 980px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copyrightlist-left {
+  margin: 5px 30px 0 0;
+}
+
+.copyrightlist-center {
+  width: 400px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.copyrightlist-center-content {
+  width: auto;
+  margin: 5px 7px 0 0;
+  padding: 0 10px 0 0;
+  color: #424245;
+  border-right: solid #c4c2c2;
+  white-space: nowrap;
+}
+/* 最後だけborder-rightなくしたい */
+
+.copyrightlist-right {
+  color: #424245;
+  margin: 5px 7px 0 0;
+  padding: 0 10px 0 0;
+}
